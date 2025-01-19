@@ -10,16 +10,16 @@ import { multi } from './data';
 })
 export class AppComponent {
   multi: any[];
-  view: any[] = [1000, 600];
+  view: any[] = [700, 400];
 
- 
+  // options
   showXAxis: boolean = true;
   gradient: boolean = false;
   showLegend: boolean = true;
   animations: boolean = true;
 
   colorScheme = {
-    domain: ['#5AA454', '#C7B42C', '#AAAAAA']
+    domain: ['#5AA454', '#C7B42C', '#AAAAAA', '#111111']
   };
 
   constructor() {
